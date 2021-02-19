@@ -1,0 +1,10 @@
+
+entity Trip {
+	source String,
+    destination String,
+    startTime   Instant,
+    car String,
+    passengers Integer ,
+    contactNo  String
+}
+

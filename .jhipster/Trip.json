@@ -1,0 +1,41 @@
+{
+  "name": "Trip",
+  "fields": [
+    {
+      "fieldName": "source",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "destination",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "startTime",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "car",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "passengers",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "contactNo",
+      "fieldType": "String"
+    }
+  ],
+  "relationships": [],
+  "changelogDate": "20201212030433",
+  "entityTableName": "trip",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*"
+}
